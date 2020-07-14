@@ -19,6 +19,5 @@
     },
 
     "require": {"php": ">=7.0", "alexcaussades/bootstrap": "master"},
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    "minimum-stability": "dev"
 }
