@@ -2,6 +2,16 @@
     "name": "alexcaussades/bootstrap",
     "description": "Bootstrap PHP",
     "type": "library",
+    "keywords": [
+        "framework",
+        "bootstrap",
+        "php",
+        "library",
+        "client",
+        "HTTP client",
+        "Rapide"
+    ],
+    
     "autoload": {
         "classmap": ["src"],
         "psr-4": {
