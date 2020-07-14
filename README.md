@@ -1,5 +1,5 @@
 
-[![Bootstrap](https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg)](https://v5.getbootstrap.com/)
+[![Bootstrap](https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg =250x)](https://v5.getbootstrap.com/)
 
 # Bootsrtap php library for AlexCaussades
 
