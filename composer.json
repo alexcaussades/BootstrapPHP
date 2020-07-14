@@ -1,7 +1,7 @@
 {
     "name": "alexcaussades/bootstrap",
     "description": "Bootstrap PHP",
-    
+    "type": "library",
     "autoload": {
         "classmap": ["src"],
         "psr-4": {
@@ -9,7 +9,7 @@
         }
     },
 
-    "require": {"php": ">=7.1"},
+    "require": {"php": ">=5.5"},
 
     "license": "MIT",
 
