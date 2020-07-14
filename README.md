@@ -1,7 +1,7 @@
 
 [![Bootstrap](https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg)](https://v5.getbootstrap.com/)
 
-# Bootsrtap php library for AlexCaussades
+# Bootstrap php library for AlexCaussades
 
 This library for Bootstrap on the php.
 
