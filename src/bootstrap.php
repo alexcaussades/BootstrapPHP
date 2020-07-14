@@ -16,6 +16,7 @@ namespace Bootstrap;
 class Bootstrap {
 
 	use bootstrapButtonTrait;
+	use bootstrapLinkTrait;
 
 	/**
 	 * @return stylesheet

@@ -74,6 +74,8 @@ $alerts = new Alerts();
 <?= $boot->endContainer(); ?>
 <?= $boot->endContainer(); ?>
 
+<?= $boot->link("#","primary","sa fonctionne trop bien");?>
+
 
 
 <?=  $boot->getJS();?>
