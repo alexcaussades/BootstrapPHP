@@ -1,10 +1,12 @@
 {
-    "name": "alexcaussades/bootsrap",
+    "name": "alexcaussades/bootstrap",
     "description": "Bootstrap PHP",
     "authors": [
         {
             "name": "Alexcaussades",
-            "email": "alexcaussades@gmail.com"
+            "email": "alexcaussades@gmail.com",
+            "role": "Developer",
+            "homepage": "https://alexcaussades.com"
         }
     ],
     "license": "MIT",
@@ -16,6 +18,7 @@
         }
     },
 
-    "require": {},
-    "minimum-stability": "stable"
+    "require": {"php": ">=7.0"},
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
