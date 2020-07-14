@@ -1,0 +1,19 @@
+{
+    "name": "alexcaussades/bootsrap",
+    "description": "Bootstrap PHP",
+    "authors": [
+        {
+            "name": "Alexcaussades",
+            "email": "alexcaussades@gmail.com"
+        }
+    ],
+    
+    "autoload": {
+        "classmap": ["src"],
+        "psr-4": {
+            "Bootstrap\\": "src"
+        }
+    },
+
+    "require": {}
+}

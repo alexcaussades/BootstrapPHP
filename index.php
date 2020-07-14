@@ -1,12 +1,14 @@
 <?php
+
+require 'vendor/autoload.php';
+
 use Bootstrap\Alerts;
 use Bootstrap\Bootstrap;
-use Bootstrap\form;
-
-require "src/depandance.php";
+use Bootstrap\Form;
 
 $boot = new Bootstrap();
 $alerts = new Alerts();
+
 ?>
 <!DOCTYPE html>
 <html lang="fr">

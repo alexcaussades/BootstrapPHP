@@ -8,7 +8,7 @@ namespace Bootstrap;
  * @version 0.1
  */
 
-class form extends Bootstrap 
+class Form extends Bootstrap 
 {   
 	
 	private $action;

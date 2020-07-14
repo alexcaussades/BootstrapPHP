@@ -1,5 +1,5 @@
 <?php
-
+declare(strict_types=1);
 namespace Bootstrap;
 
 /**
@@ -11,7 +11,7 @@ namespace Bootstrap;
  * @version bootstrap 5.0.0 Alpha
  */
 
-require "trait/traitButton.php";
+//require "trait/traitButton.php";
 
 class Bootstrap {
 
