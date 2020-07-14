@@ -16,6 +16,6 @@
     },
 
     "require": {},
-    
+    "license": "public",
     "minimum-stability": "stable"
 }
