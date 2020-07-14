@@ -7,7 +7,8 @@
             "email": "alexcaussades@gmail.com"
         }
     ],
-    
+    "license": "MIT",
+  
     "autoload": {
         "classmap": ["src"],
         "psr-4": {
@@ -16,6 +17,5 @@
     },
 
     "require": {},
-    "license": "public",
     "minimum-stability": "stable"
 }
