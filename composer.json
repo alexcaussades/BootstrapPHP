@@ -1,6 +1,18 @@
 {
     "name": "alexcaussades/bootstrap",
     "description": "Bootstrap PHP",
+    
+    "autoload": {
+        "classmap": ["src"],
+        "psr-4": {
+            "Bootstrap\\": "src"
+        }
+    },
+
+    "require": {"php": ">=7.1"},
+
+    "license": "MIT",
+
     "authors": [
         {
             "name": "Alexcaussades",
@@ -9,15 +21,6 @@
             "homepage": "https://alexcaussades.com"
         }
     ],
-    "license": "MIT",
-  
-    "autoload": {
-        "classmap": ["src"],
-        "psr-4": {
-            "Bootstrap\\": "src"
-        }
-    },
 
-    "require": {"php": ">=7.0", "alexcaussades/bootstrap": "master"},
-    "minimum-stability": "dev"
+    "minimum-stability": "beta"
 }
