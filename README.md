@@ -12,7 +12,7 @@ This library for Bootstrap on the php.
 ## Installation
 
 ```php
-composer require alexcaussades/bootstrap
+composer require alexcaussades/bootstrap:dev-master
 ```
 
 ## Usage
