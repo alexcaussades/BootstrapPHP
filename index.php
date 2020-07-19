@@ -5,6 +5,7 @@ require 'vendor/autoload.php';
 use Bootstrap\Alerts;
 use Bootstrap\Bootstrap;
 use Bootstrap\Form;
+use Bootstrap\card;
 
 $boot = new Bootstrap();
 $alerts = new Alerts();
@@ -76,6 +77,9 @@ $alerts = new Alerts();
 
 <?= $boot->link("#","primary","sa fonctionne trop bien");?>
 
-
-
+<?= $boot->startContainer(); ?>
+<?php $card = new card;
+$card->cardBuilder(null,"coucou ses nous", "hop hop hop ", null, null);
+echo $card->cardCreat(); ?>
+<?= $boot->endContainer(); ?>
 <?=  $boot->getJS();?>
