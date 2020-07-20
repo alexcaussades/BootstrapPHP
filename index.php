@@ -74,7 +74,7 @@ $alerts = new Alerts();
 	<?php $form->endForm(); ?>
 <?= $boot->endContainer(); ?>
 <?= $boot->endContainer(); ?>
-
+<br>
 <?= $boot->startContainer(); ?>
 <?php $card = new card;
 $card->cardBuilder($option = array("colortext" => "white",

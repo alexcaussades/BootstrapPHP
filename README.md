@@ -90,6 +90,20 @@ $alerts = new Alerts();
 
 ```
 
+## card 
+
+```php
+<?php $card = new card;
+$card->cardBuilder($option = array("colortext" => "white",
+									"colorcard" => "dark",
+									"header" => "test", 
+									"title" => "coucou ses nous",
+									"text" => "vennez les amis"));
+
+echo $card->cardCreatColor(); ?>
+
+```
+
 ## MagiqueClass
 
 ```php
