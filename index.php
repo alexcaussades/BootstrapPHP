@@ -75,11 +75,16 @@ $alerts = new Alerts();
 <?= $boot->endContainer(); ?>
 <?= $boot->endContainer(); ?>
 
-<?= $boot->link("#","primary","sa fonctionne trop bien");?>
-
 <?= $boot->startContainer(); ?>
 <?php $card = new card;
-$card->cardBuilder(null,"coucou ses nous", "hop hop hop ", null, null);
-echo $card->cardCreat(); ?>
+$card->cardBuilder($option = array("colortext" => "white",
+									"colorcard" => "dark",
+									"header" => "test", 
+									"title" => "coucou ses nous",
+									"text" => "vennez les amis"));
+
+echo $card->cardCreatColor(); ?>
 <?= $boot->endContainer(); ?>
+
+
 <?=  $boot->getJS();?>
